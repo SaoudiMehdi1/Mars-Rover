@@ -27,7 +27,7 @@ corresponding to the x and y co-ordinates and the rover's orientation.
 Each rover will be finished sequentially, which means that the second rover
 won't start to move until the first one has finished moving.
 
-###OUTPUT:
+### OUTPUT:
 - The output for each rover should be its final co-ordinates and heading.
 
 INPUT AND OUTPUT
