@@ -15,7 +15,7 @@ degrees left or right respectively, without moving from its current spot.
 'M' means move forward one grid point, and maintain the same heading.
 Assume that the square directly North from (x, y) is (x, y+1).
 
-- INPUT:
+### INPUT:
 - The first line of input is the upper-right coordinates of the plateau, the
 lower-left coordinates are assumed to be 0,0.
 The rest of the input is information pertaining to the rovers that have
@@ -27,8 +27,8 @@ corresponding to the x and y co-ordinates and the rover's orientation.
 Each rover will be finished sequentially, which means that the second rover
 won't start to move until the first one has finished moving.
 
-- OUTPUT:
-The output for each rover should be its final co-ordinates and heading.
+###OUTPUT:
+- The output for each rover should be its final co-ordinates and heading.
 
 INPUT AND OUTPUT
 Test Input:
@@ -40,14 +40,25 @@ MMRMMRMRRM
 Expected Output:
 1 3 N
 5 1 E
-    Tools : Maven (2+), java 11, JUnit, Mockito
 
-### To Build
+### Tools : 
+- Maven (2+), java 8, JUnit, Mockito
 
--
+### To Execute
+
+- Download the repository
+- Run "mvn clean install"
+- Run "cd target"
+- Run "java -jar "Mars-Rover-1.0-SNAPSHOT.jar"
+
+You can change the input.txt file while testing other examples.
 
 ### Using TDD with Acceptance Tests
 
+- RoverLeftCommandTest
+- RoverMoveCommandTest
+- RoverRightCommandTest
+- RoverTest
 
 
 
