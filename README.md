@@ -57,7 +57,7 @@ MMRMMRMRRM
 - Download the repository
 - Run "mvn clean install"
 - Run "cd target"
-- Run "java -jar "Mars-Rover-1.0-SNAPSHOT.jar"
+- Run java -jar "Mars-Rover-1.0-SNAPSHOT.jar"
 
 You can change the input.txt file while testing other examples.
 
